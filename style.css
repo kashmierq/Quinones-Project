@@ -1,0 +1,27 @@
+body {
+background-color: rgba(207, 15, 191, 0.247);
+margin: 20px;
+padding: 10%
+
+}
+
+header{
+  background-image:url(https://wallpapers.com/images/file/aesthetic-computer-light-pink-wallpaper-ggrgtxvlagf8g7b6.jpg)
+  
+}
+
+header{
+  border: 5px solid;
+  border-color: bisque;
+  border-radius: 20px;
+  border-bottom: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+h1{
+  color: rgb(95, 4, 34);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
