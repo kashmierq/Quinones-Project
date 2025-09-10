@@ -6,8 +6,7 @@ padding: 10%
 }
 
 header{
-  background-image:url(https://wallpapers.com/images/file/aesthetic-computer-light-pink-wallpaper-ggrgtxvlagf8g7b6.jpg)
-  
+    background-image:url(https://wallpapers.com/images/file/aesthetic-computer-light-pink-wallpaper-ggrgtxvlagf8g7b6.jpg)
 }
 
 header{
@@ -18,10 +17,35 @@ header{
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
+  padding: 10px;
 
 }
 
 h1{
   color: rgb(95, 4, 34);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav a:hover{
+  text-decoration: none;
+   text-decoration-line: none;
+
+}
+
+nav a:active{
+  color: rgb(31, 61, 87);
+
+}
+
+nav a:focus{
+ 
+}
+
+html{
+background-image:url(https://pin.it/4s9b73gDJ)
+}
+
+nav{
+  background-image:url()
 }
