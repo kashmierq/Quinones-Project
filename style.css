@@ -21,24 +21,10 @@ header{
 }
 
 h1{
-  color: rgb(95, 4, 34);
+  color: rgb(105, 13, 44);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
-nav a:hover{
-  text-decoration: none;
-   text-decoration-line: none;
-
-}
-
-nav a:active{
-  color: rgb(7, 31, 53);
-}
-
-nav{
-  background-image:url(./istockphoto-2149815990-612x612.jpg)
-}
 
 body{
   display: flex;
@@ -49,20 +35,43 @@ body{
 main{
   margin: 20px;
   padding: 20px;
-  text-align:left;
+  text-align:justify;
   text-decoration: double;
 }
 
-p{
-text-align: center;
+header a :link {
+  color: red;
+   text-decoration:none;
 }
 
-header:hover{
-  text-decoration-line:none;
+header a:visited {
+  color: rgb(141, 2, 2);
+   text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(107, 31, 69);
+  text-decoration: none;
+}
+ 
+header a:active {
+  color: rgb(156, 12, 60);
+   text-decoration: none;
 }
 
 h1{
   border:double;
   border-radius: 10px;
-  ;
+  background-color:bisque;
+}
+
+img{
+  margin: 10px;
+  padding: 10px;
+  border: 40px;
+  image-resolution: 20px;
+  width: 500px;
+  height: 600px;
+  border-radius: 40px;
+  
 }
