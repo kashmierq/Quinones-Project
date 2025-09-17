@@ -11,14 +11,13 @@ header{
 
 header{
   border: 5px solid;
-  border-color: bisque;
+  border-color: rgb(68, 38, 1);
   border-radius: 20px;
   border-bottom: 30px;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 10px;
-
 }
 
 h1{
@@ -34,18 +33,36 @@ nav a:hover{
 }
 
 nav a:active{
-  color: rgb(31, 61, 87);
-
-}
-
-nav a:focus{
- 
-}
-
-html{
-background-image:url(https://pin.it/4s9b73gDJ)
+  color: rgb(7, 31, 53);
 }
 
 nav{
-  background-image:url()
+  background-image:url(./istockphoto-2149815990-612x612.jpg)
+}
+
+body{
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+main{
+  margin: 20px;
+  padding: 20px;
+  text-align:left;
+  text-decoration: double;
+}
+
+p{
+text-align: center;
+}
+
+header:hover{
+  text-decoration-line:none;
+}
+
+h1{
+  border:double;
+  border-radius: 10px;
+  ;
 }
