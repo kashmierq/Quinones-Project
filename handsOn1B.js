@@ -1,25 +1,31 @@
 function checkbmi(){
 
-    let bmi = Weight / ( height * height);
+    let bmi = weight / (height * height);
     let height = document.getElementById("Height").value;
-    let Weight = document.getElementById("Weight").value;
+    let weight = document.getElementById("Weight").value;
 
-    console.log(You Enter + height + " for height and " + Weight + " for weight.");
+    console.log(bmi);
+    console.log(height);
+    console.log(Weight);
 
-    if ( Weight / (height * height ) < 18.5){
-       result = "Your BMI is " + ", you are underweight.";
+    if (height && weight !=""){
+       console.error = ("Please enter both height and weight.");
+        return;
+    } else if (!weight) {
+        console.error("Please enter your weight.");
+    } else if (!height) {
+        console.error("Please enter your height.");
 
-    } else if (Weight / (height * height) >= 18.5 && bmi <= 24.9){
-       result = "Your BMI is " + ", you have a normal weight.";
+
+
+    let bmi = weight / (height * height);
+        result.innerHTML += "Underweight.";
     }
-    else if (Weight / (height * height) >= 25 && bmi <= 29.9){
-    result = "Your BMI is " + ", you are overweight.";
+    else if (bmi >= 18.5 && bmi < 24.9) {
+        result.innerHTML += "Normal Weight.";
+    } else if (bmi >= 25 && bmi < 29.9) {
+        result.innerHTML += "Overweight.";
+    } else {
+        result.innerHTML += "Obese.";
     }
-    else if (Weight / (height * height) >= 30){
-       result = "Your BMI is " + ", you are obese.";
-    }   
-    else {
-        result = "Please enter valid inputs.";
-    }
-
-}
+}}
